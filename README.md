@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# devEvents‑platform
+
+**The hub for every dev event you mustn't miss.**\
+Hackathons, meetups, conferences --- all in one place.
+
+## Table of Contents
+
+-   [About](#about)
+-   [Features](#features)
+-   [Demo](#demo)
+-   [Tech Stack](#tech-stack)
+-   [Getting Started](#getting-started)
+-   [Project Structure](#project-structure)
+-   [Contributing](#contributing)
+-   [License](#license)
+
+## About
+
+DevEvents is a web application designed to help developers
+discover and track upcoming developer‑focused events (hackathons,
+meetups, conferences, online/hybrid events) from around the world, in
+one centralized space. Users can browse featured events, view event
+details, and --- depending on permissions --- create new event listings.
+
+The project features a lightweight, easy-to-use "event hub" for
+dev communities, helping developers stay informed of events relevant to
+them no matter where they are.
+
+## Features
+
+-   Browse a curated list of upcoming developer events (in‑person,
+    online, hybrid)
+-   View essential event data: name, date, location (city / country /
+    online), type (hackathon / conference / etc.)
+-   Create new events (form-based submission)
+-   Clean, responsive UI for both mobile and desktop use
+-   Easy deploy via Vercel
+
+## Demo
+
+You can check out the app on its live demo:\
+https://dev-events-lime.vercel.app
+
+## Tech Stack
+
+-   Next.js (React + TypeScript)\
+-   Custom UI styling\
+-   Data layer (database folder)\
+-   Deployable on Vercel
 
 ## Getting Started
 
-First, run the development server:
-
-```bash
+``` bash
+git clone https://github.com/Katartismos/devEvents-platform.git
+cd devEvents-platform
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+    /app
+    /components
+    /database
+    /lib
+    /public
+    package.json
+    tsconfig.json
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Contributing
 
-## Learn More
+1.  Fork the repo\
+2.  Create a feature branch\
+3.  Commit changes\
+4.  Open a PR
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT License (or update if needed)
